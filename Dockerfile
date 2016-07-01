@@ -9,4 +9,4 @@ RUN apt-get install -y unifi
 ##RUN apt-get install -y unifi-rapid
 EXPOSE 8081 8080 8443 8880 8843
 
-CMD ["/usr/lib/jvm/java-6-openjdk-amd64/jre/bin/java", "-Xmx1024M", "-jar", "/usr/lib/unifi/lib/ace.jar", "start"]
+CMD ["/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java", "-Xmx1024M", "-jar", "/usr/lib/unifi/lib/ace.jar", "start"]
